@@ -5,7 +5,6 @@ import {
      Button,
      Modal,
      ModalHeader,
-     ModalBody,
      FormGroup,
      Label
 } from 'reactstrap'

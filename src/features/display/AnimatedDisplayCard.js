@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Card, CardImg, CardTitle, CardText } from 'reactstrap';
 import { useSpring, animated } from 'react-spring';
 
-const AnimatedDisplayCard = ({ partner }) => {
-    const { name, image, description } = partner;
+const AnimatedDisplayCard = ({ item }) => {
+    const { name, image, description } = item;
     const [toggle, setToggle] = useState(false);
 
     const animatedStyle = useSpring({
